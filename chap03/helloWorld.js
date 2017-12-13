@@ -18,5 +18,5 @@ var someNumber = multiplier(13);
 console.log("someNumber: "+someNumber(5));
 
 var cowString = String(7);
-console.log("cowString is: "+cowString.length);
+console.log("cowString is: "+cowString.length+".");
 
