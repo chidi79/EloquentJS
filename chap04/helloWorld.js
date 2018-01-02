@@ -11,3 +11,13 @@ console.log("myArr.join(): "+myArr.join("$"));
 
 myArr.pop();
 console.log(myArr);
+
+var daysOfTheWeek = {
+    "workDays" : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "weekend" : ["Saturday", "Sunday"]
+};
+
+console.log(daysOfTheWeek.workDays);
+
+console.log(daysOfTheWeek.workDays.indexOf("Saturday"));
+
