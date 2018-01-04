@@ -16,8 +16,8 @@ console.log(myArr);
 console.log("\n");
 
 var daysOfTheWeek = {
-    "workDays" : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-    "weekend" : ["Saturday", "Sunday"]
+    workDays : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    weekend : ["Saturday", "Sunday"]
 };
 
 console.log(daysOfTheWeek.workDays);
@@ -29,3 +29,11 @@ for (var weekDay in daysOfTheWeek){
     console.log("the entries in "+ weekDay +" are: " +daysOfTheWeek[weekDay]);
 }
 
+
+var myString ={
+    name: "myString",
+    length: 8
+};
+
+myString.newVar = "newVar";
+console.log(myString);
