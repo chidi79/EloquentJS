@@ -1,3 +1,6 @@
+//higher order functions - functions that operate on other functions either by taking them as arguments or returning them
+//so, forEach() is a higher order function in this example, 'action' is the argument
+
 function forEach(array, action){
     for(var c = 0; c < array.length; c++){
         action(array[c]);

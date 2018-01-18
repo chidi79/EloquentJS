@@ -1,3 +1,4 @@
+//performs 'action' on the array, every element of the array should meet the condition in 'action'
 function every(everyArr, action){
     for(i = 0; i < everyArr.length; i++){
         if(!action(everyArr[i]))
@@ -6,6 +7,7 @@ function every(everyArr, action){
     return true;
 }
 
+//performs 'action' on the array; at least one element of the array should meet the condition in 'action'
 function some(someArr, action){
     for(i = 0; i < someArr.length; i++){
         if(action(someArr[i]))
